@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1841811008802798328}
-  - component: {fileID: 2365492275556532194}
   - component: {fileID: 926520225311952997}
   - component: {fileID: 8073533766109147975}
+  - component: {fileID: 4556796803332592695}
+  - component: {fileID: 300326500}
+  - component: {fileID: 5589407940548636666}
   m_Layer: 0
   m_Name: obstaculos
   m_TagString: Obstacle
@@ -35,19 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2365492275556532194
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841811008803098328}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.80650616, y: 2.7115798, z: 3.5829678}
-  m_Center: {x: -0.005739689, y: 0.8248308, z: 0.008191347}
 --- !u!54 &926520225311952997
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -76,6 +65,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86d9e72122d4294f81d28d1464d2631, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &4556796803332592695
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841811008803098328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.28
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.05, y: 0.87, z: -0.77}
+--- !u!136 &300326500
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841811008803098328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.28
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.05, y: 0.87, z: 0.52}
+--- !u!136 &5589407940548636666
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841811008803098328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.28
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.05, y: 0.87, z: -0.11}
 --- !u!1 &1841811008803098334
 GameObject:
   m_ObjectHideFlags: 0
